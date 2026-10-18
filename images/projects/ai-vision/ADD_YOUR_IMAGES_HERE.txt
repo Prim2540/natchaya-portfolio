@@ -1,0 +1,1 @@
+Add image1.jpg, image2.jpg, image3.jpg here; then edit the project images array in src/data.js.

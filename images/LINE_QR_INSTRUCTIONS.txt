@@ -1,0 +1,2 @@
+Put your real LINE QR code here as line-qr.png.
+Do not rename it unless you also update src/App.jsx.
