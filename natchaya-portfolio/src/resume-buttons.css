@@ -1,0 +1,14 @@
+/* Add at the end of src/styles.css */
+.resume-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.hero-resumes { margin-top: 14px; }
+.resume-contact { margin-top: 28px; }
+.resume-contact > p { margin-bottom: 12px; }
+.resume-buttons .button { display: inline-flex; align-items: center; gap: 9px; }
+@media (max-width: 640px) {
+  .resume-buttons .button { justify-content: center; }
+}

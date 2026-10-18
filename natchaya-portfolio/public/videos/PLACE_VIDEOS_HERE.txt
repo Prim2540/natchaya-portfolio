@@ -1,0 +1,1 @@
+Place short approved project videos here and reference them in src/data.js as videos/filename.mp4
