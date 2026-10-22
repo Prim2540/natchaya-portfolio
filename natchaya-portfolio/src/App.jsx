@@ -311,7 +311,7 @@ function App() {
            <div className="line-qr-card">
   <div className="line-qr-image">
     <img
-      src={`${import.meta.env.BASE_URL}images/line-qr.png`}
+      src={`${import.meta.env.BASE_URL}images/line-qr.jpg`}
       alt="LINE QR Code - Natchaya"
     />
   </div>
