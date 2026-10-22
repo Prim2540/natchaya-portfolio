@@ -151,7 +151,7 @@ export const projects = [
     stack: ['Presentation', 'Discovery', 'Coordination'],
     details: { en: ['Client requirements discussions', 'Solution demonstrations and proposals', 'Cross-functional communication'], th: ['พูดคุยและรวบรวมความต้องการของลูกค้า', 'สาธิตโซลูชันและนำเสนอข้อเสนอ', 'ประสานงานระหว่างทีมและลูกค้า'] },
     images: 
-       [ "images/projects/sales/image1.jpg",
+              ["images/projects/sales/image1.jpg",
               "images/projects/sales/image2.jpg",
               "images/projects/sales/image3.jpg",
               "images/projects/sales/image4.jpg",
