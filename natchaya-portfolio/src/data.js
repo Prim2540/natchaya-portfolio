@@ -150,7 +150,13 @@ export const projects = [
     description: { en: 'Technical presentations, solution discussions and relationship management for institutional clients.', th: 'นำเสนอโซลูชันด้านเทคนิค วิเคราะห์ความต้องการ และสร้างความสัมพันธ์กับลูกค้าองค์กร' },
     stack: ['Presentation', 'Discovery', 'Coordination'],
     details: { en: ['Client requirements discussions', 'Solution demonstrations and proposals', 'Cross-functional communication'], th: ['พูดคุยและรวบรวมความต้องการของลูกค้า', 'สาธิตโซลูชันและนำเสนอข้อเสนอ', 'ประสานงานระหว่างทีมและลูกค้า'] },
-    images: [], videos: []
+    images: 
+       [ "images/projects/sales/image1.jpg",
+              "images/projects/sales/image2.jpg",
+              "images/projects/sales/image3.jpg",
+              "images/projects/sales/image4.jpg",
+           ], 
+   videos: []
   }
   ,{
     id: 'video-showcase', number: '05', icon: 'video', color: 'cyan',
