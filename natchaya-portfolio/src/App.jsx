@@ -308,12 +308,20 @@ function App() {
             </div>
             <div className="line-qr-card">
               {/* 📷 ใส่รูป QR Code ของคุณใน public/images/line-qr.png */}
-              <div className="line-qr-image">
-                <img src={asset('images/line-qr.png')} alt="LINE contact QR code"
-                  onLoad={(e) => { e.currentTarget.nextElementSibling.style.display = 'none' }}
-                  onError={(e) => { e.currentTarget.style.display = 'none' }} />
-                <div className="line-qr-placeholder"><QrCode size={68}/><span>LINE QR CODE</span></div>
-              </div>
+           <div className="line-qr-card">
+  <div className="line-qr-image">
+    <img
+      src={`${import.meta.env.BASE_URL}images/line-qr.png`}
+      alt="LINE QR Code - Natchaya"
+    />
+  </div>
+
+  <strong>
+    {lang === "th"
+      ? "สแกน QR Code เพื่อติดต่อผ่าน LINE"
+      : "Scan to connect on LINE"}
+  </strong>
+</div>
               <strong>{lang === 'th' ? 'สแกน LINE เพื่อติดต่อ' : 'Scan to connect on LINE'}</strong>
               <small>{lang === 'th' ? 'พื้นที่สำหรับใส่ QR Code ของคุณ' : 'Your LINE QR code goes here'}</small>
             </div>
